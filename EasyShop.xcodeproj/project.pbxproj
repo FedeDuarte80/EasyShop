@@ -25,8 +25,8 @@
 		DA3B3C6C254B417700A78604 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3B3C6B254B417700A78604 /* Preview Assets.xcassets */; };
 		DA3B3C76254B426400A78604 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B3C75254B426400A78604 /* Persistence.swift */; };
 		DA3B3C7B254B43A200A78604 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA3B3C79254B43A200A78604 /* CoreDataModel.xcdatamodeld */; };
-		DA3B3C93254B475500A78604 /* SelectedShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B3C92254B475500A78604 /* SelectedShopView.swift */; };
-		DA3B3C96254B476300A78604 /* SelectedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B3C95254B476300A78604 /* SelectedItemView.swift */; };
+		DA3B3C93254B475500A78604 /* ShopCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B3C92254B475500A78604 /* ShopCart.swift */; };
+		DA3B3C96254B476300A78604 /* ItemCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B3C95254B476300A78604 /* ItemCart.swift */; };
 		DA3B3C9A254B477800A78604 /* ShopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B3C99254B477800A78604 /* ShopList.swift */; };
 		DA3B3C9E254B478300A78604 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B3C9D254B478300A78604 /* ItemList.swift */; };
 		DAB1E9AB255C33C50071AAC0 /* Item+Extensions Jerry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1E9A8255C33C50071AAC0 /* Item+Extensions Jerry.swift */; };
@@ -59,8 +59,8 @@
 		DA3B3C6D254B417700A78604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA3B3C75254B426400A78604 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DA3B3C7A254B43A200A78604 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		DA3B3C92254B475500A78604 /* SelectedShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedShopView.swift; sourceTree = "<group>"; };
-		DA3B3C95254B476300A78604 /* SelectedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedItemView.swift; sourceTree = "<group>"; };
+		DA3B3C92254B475500A78604 /* ShopCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCart.swift; sourceTree = "<group>"; };
+		DA3B3C95254B476300A78604 /* ItemCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCart.swift; sourceTree = "<group>"; };
 		DA3B3C99254B477800A78604 /* ShopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopList.swift; sourceTree = "<group>"; };
 		DA3B3C9D254B478300A78604 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
 		DAB1E9A8255C33C50071AAC0 /* Item+Extensions Jerry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+Extensions Jerry.swift"; sourceTree = "<group>"; };
@@ -158,8 +158,8 @@
 		DA3B3C98254B476800A78604 /* Selected Views */ = {
 			isa = PBXGroup;
 			children = (
-				DA3B3C92254B475500A78604 /* SelectedShopView.swift */,
-				DA3B3C95254B476300A78604 /* SelectedItemView.swift */,
+				DA3B3C92254B475500A78604 /* ShopCart.swift */,
+				DA3B3C95254B476300A78604 /* ItemCart.swift */,
 			);
 			path = "Selected Views";
 			sourceTree = "<group>";
@@ -256,9 +256,9 @@
 				882842C62566F26600E75B59 /* Shop+Extension.swift in Sources */,
 				DA3B3C76254B426400A78604 /* Persistence.swift in Sources */,
 				DA3B3C9A254B477800A78604 /* ShopList.swift in Sources */,
-				DA3B3C96254B476300A78604 /* SelectedItemView.swift in Sources */,
+				DA3B3C96254B476300A78604 /* ItemCart.swift in Sources */,
 				DA3B3C9E254B478300A78604 /* ItemList.swift in Sources */,
-				DA3B3C93254B475500A78604 /* SelectedShopView.swift in Sources */,
+				DA3B3C93254B475500A78604 /* ShopCart.swift in Sources */,
 				DA3B3C67254B417700A78604 /* ContentView.swift in Sources */,
 				DA3B3C65254B417700A78604 /* EasyShopApp.swift in Sources */,
 				DAB1E9AB255C33C50071AAC0 /* Item+Extensions Jerry.swift in Sources */,
