@@ -18,7 +18,6 @@
 		88B1A0202578579E007AFE02 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B1A01F2578579E007AFE02 /* Colors.xcassets */; };
 		88B1A023257860EC007AFE02 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1A022257860EC007AFE02 /* ColorTheme.swift */; };
 		88B1A027257865F9007AFE02 /* SettingsTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1A026257865F9007AFE02 /* SettingsTheme.swift */; };
-		88CBEC882571148E0055003F /* DefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBEC872571148E0055003F /* DefaultData.swift */; };
 		DA3B3C65254B417700A78604 /* EasyShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B3C64254B417700A78604 /* EasyShopApp.swift */; };
 		DA3B3C67254B417700A78604 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B3C66254B417700A78604 /* ContentView.swift */; };
 		DA3B3C69254B417700A78604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3B3C68254B417700A78604 /* Assets.xcassets */; };
@@ -41,7 +40,6 @@
 		882842C52566F26600E75B59 /* Shop+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shop+Extension.swift"; sourceTree = "<group>"; };
 		88295A9B2668E236004B1934 /* TextFieldLimits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldLimits.swift; sourceTree = "<group>"; };
 		884E3A9A2572A93F00F9CBE4 /* SettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViews.swift; sourceTree = "<group>"; };
-		884EC274266834A10094D423 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		88A1400B25BA41680018EDE3 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		88A1400C25BA416E0018EDE3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		88A1400D25BA41740018EDE3 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -50,7 +48,6 @@
 		88B1A01F2578579E007AFE02 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		88B1A022257860EC007AFE02 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 		88B1A026257865F9007AFE02 /* SettingsTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTheme.swift; sourceTree = "<group>"; };
-		88CBEC872571148E0055003F /* DefaultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultData.swift; sourceTree = "<group>"; };
 		DA3B3C61254B417700A78604 /* EasyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3B3C64254B417700A78604 /* EasyShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyShopApp.swift; sourceTree = "<group>"; };
 		DA3B3C66254B417700A78604 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,7 +115,6 @@
 		DA3B3C63254B417700A78604 /* EasyShop */ = {
 			isa = PBXGroup;
 			children = (
-				884EC274266834A10094D423 /* README.md */,
 				DA3B3C64254B417700A78604 /* EasyShopApp.swift */,
 				DA3B3C66254B417700A78604 /* ContentView.swift */,
 				DA3B3CA0254B478700A78604 /* List Views */,
@@ -146,11 +142,10 @@
 			isa = PBXGroup;
 			children = (
 				DA3B3C75254B426400A78604 /* Persistence.swift */,
+				DA3B3C79254B43A200A78604 /* CoreDataModel.xcdatamodeld */,
 				882842C52566F26600E75B59 /* Shop+Extension.swift */,
 				DAB1E9A8255C33C50071AAC0 /* Item+Extensions Jerry.swift */,
 				8570491325B1F14300A24593 /* Item-Notification.swift */,
-				DA3B3C79254B43A200A78604 /* CoreDataModel.xcdatamodeld */,
-				88CBEC872571148E0055003F /* DefaultData.swift */,
 			);
 			path = CoreDataFiles;
 			sourceTree = "<group>";
@@ -252,7 +247,6 @@
 				8570491425B1F14300A24593 /* Item-Notification.swift in Sources */,
 				881B486F2603DBA100087B21 /* Constants.swift in Sources */,
 				88B1A023257860EC007AFE02 /* ColorTheme.swift in Sources */,
-				88CBEC882571148E0055003F /* DefaultData.swift in Sources */,
 				882842C62566F26600E75B59 /* Shop+Extension.swift in Sources */,
 				DA3B3C76254B426400A78604 /* Persistence.swift in Sources */,
 				DA3B3C9A254B477800A78604 /* ShopList.swift in Sources */,
