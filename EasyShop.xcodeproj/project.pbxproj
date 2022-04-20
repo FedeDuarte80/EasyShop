@@ -10,9 +10,10 @@
 		853690A925B60AC2001395C2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 853690AB25B60AC2001395C2 /* Localizable.strings */; };
 		8570491425B1F14300A24593 /* Item-Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8570491325B1F14300A24593 /* Item-Notification.swift */; };
 		881B486F2603DBA100087B21 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881B486E2603DBA100087B21 /* Constants.swift */; };
-		8821AE85264ED0270019E71D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821AE84264ED0270019E71D /* Extensions.swift */; };
 		882842C62566F26600E75B59 /* Shop+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882842C52566F26600E75B59 /* Shop+Extension.swift */; };
 		88295A9C2668E236004B1934 /* TextFieldLimits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88295A9B2668E236004B1934 /* TextFieldLimits.swift */; };
+		8848243F2810507F00D1A4FC /* Modifiers-View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8848243E2810507F00D1A4FC /* Modifiers-View.swift */; };
+		88482441281050B900D1A4FC /* Extensions-View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88482440281050B900D1A4FC /* Extensions-View.swift */; };
 		884E3A9B2572A93F00F9CBE4 /* SettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884E3A9A2572A93F00F9CBE4 /* SettingsViews.swift */; };
 		88AFE6762629CCB200E34CA3 /* SettingsDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFE6752629CCB200E34CA3 /* SettingsDarkMode.swift */; };
 		88B1A0202578579E007AFE02 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B1A01F2578579E007AFE02 /* Colors.xcassets */; };
@@ -36,9 +37,10 @@
 		853690AD25B60B27001395C2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8570491325B1F14300A24593 /* Item-Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-Notification.swift"; sourceTree = "<group>"; };
 		881B486E2603DBA100087B21 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		8821AE84264ED0270019E71D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		882842C52566F26600E75B59 /* Shop+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shop+Extension.swift"; sourceTree = "<group>"; };
 		88295A9B2668E236004B1934 /* TextFieldLimits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldLimits.swift; sourceTree = "<group>"; };
+		8848243E2810507F00D1A4FC /* Modifiers-View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modifiers-View.swift"; sourceTree = "<group>"; };
+		88482440281050B900D1A4FC /* Extensions-View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions-View.swift"; sourceTree = "<group>"; };
 		884E3A9A2572A93F00F9CBE4 /* SettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViews.swift; sourceTree = "<group>"; };
 		88A1400B25BA41680018EDE3 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		88A1400C25BA416E0018EDE3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -90,7 +92,8 @@
 			children = (
 				881B486E2603DBA100087B21 /* Constants.swift */,
 				853690AB25B60AC2001395C2 /* Localizable.strings */,
-				8821AE84264ED0270019E71D /* Extensions.swift */,
+				8848243E2810507F00D1A4FC /* Modifiers-View.swift */,
+				88482440281050B900D1A4FC /* Extensions-View.swift */,
 				88B1A022257860EC007AFE02 /* ColorTheme.swift */,
 				88295A9B2668E236004B1934 /* TextFieldLimits.swift */,
 			);
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88482441281050B900D1A4FC /* Extensions-View.swift in Sources */,
 				8570491425B1F14300A24593 /* Item-Notification.swift in Sources */,
 				881B486F2603DBA100087B21 /* Constants.swift in Sources */,
 				88B1A023257860EC007AFE02 /* ColorTheme.swift in Sources */,
@@ -253,12 +257,12 @@
 				DA3B3C76254B426400A78604 /* Persistence.swift in Sources */,
 				DA3B3C9A254B477800A78604 /* ShopList.swift in Sources */,
 				DA3B3C96254B476300A78604 /* ItemCart.swift in Sources */,
+				8848243F2810507F00D1A4FC /* Modifiers-View.swift in Sources */,
 				DA3B3C9E254B478300A78604 /* ItemList.swift in Sources */,
 				DA3B3C93254B475500A78604 /* ShopCart.swift in Sources */,
 				DA3B3C67254B417700A78604 /* ContentView.swift in Sources */,
 				DA3B3C65254B417700A78604 /* EasyShopApp.swift in Sources */,
 				DAB1E9AB255C33C50071AAC0 /* Item+Extensions Jerry.swift in Sources */,
-				8821AE85264ED0270019E71D /* Extensions.swift in Sources */,
 				88AFE6762629CCB200E34CA3 /* SettingsDarkMode.swift in Sources */,
 				88295A9C2668E236004B1934 /* TextFieldLimits.swift in Sources */,
 				88B1A027257865F9007AFE02 /* SettingsTheme.swift in Sources */,
